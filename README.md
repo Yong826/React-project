@@ -5,5 +5,5 @@
 
 # 모바일 버전 화면
 
-![screencapture-localhost-3000-2022-10-19-03_37_33](https://user-images.githubusercontent.com/105827577/196515928-8f44c20a-53ca-47c2-b15c-788831221dbe.png)
+![screencapture-localhost-3000-2022-10-19-03_38_46](https://user-images.githubusercontent.com/105827577/196516166-13d891ae-994f-4f05-8475-2844d176bc61.png)
 
