@@ -9,6 +9,6 @@
 
 
 # 버튼 기능과 레이아웃 반응 기능 
+[screen-recording.webm](https://user-images.githubusercontent.com/105827577/196521217-3416481a-f215-499c-b95f-a61592997aa6.webm)
 
-https://user-images.githubusercontent.com/105827577/196520349-9359732d-72a1-4acb-bc9f-fa79f776aeeb.mp4
 
