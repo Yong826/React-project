@@ -1,0 +1,237 @@
+/* 기본설정 */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  transform : rotate(0.04deg);
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 22px;
+}
+
+
+/* 상단층*/
+.main {
+  background: rgb(0, 155, 255);
+  background: linear-gradient(to bottom, #499add, #4e61c0);
+  height: 550px;
+  padding: 20px;
+  color: white;
+}
+
+
+.Logo {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.phoneImage{
+  width: 400px;
+  float: right;
+  margin-top: 95px;
+}
+
+.main-apps{
+  float: left;
+  margin-top: 50px;
+}
+
+.btn {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-main {
+  background: #444;
+  color: white;
+  transition: background-color .5s;
+}
+.btn-main:hover {
+  background-color: rgb(206, 207, 213);
+}
+
+.btn-main:active {
+  background-color: #444;
+}
+
+/* 중간층*/
+.mid-container{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.service-container{
+  color: white;
+  background-color: #4e61c0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 60px 30px 50px 30px;
+}
+
+.servie-menu{
+  text-align: center;
+  margin: auto;
+}
+
+.servie-menu > h2{
+  margin: auto;
+}
+
+.four-service{
+  display: flex;
+}
+
+.four-service > div{
+  width: 25%;
+}
+
+
+
+.servie-menu > h2 {
+  padding-bottom: 70px;
+}
+
+/* 하단 */
+.servie-menu2 {
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.servie-menu2 > h2{
+  margin: auto;
+}
+
+.portimg{
+  text-align: left;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.porttext{
+  color: white;
+  padding: 50px;
+  width: 100%;
+}
+
+.port1{
+  position: relative;
+  height: 350px;
+  width: 50%;
+  float: left;
+  background-size: cover;
+}
+.port2{
+  position: relative;
+  height: 350px;
+  width: 50%;
+  float: left;
+  background-size: cover;
+}
+.port3{
+  position: relative;
+  height: 350px;
+  width: 50%;
+  float: left;
+  background-size: cover;
+}
+.port4{
+  position: relative;
+  height: 350px;
+  width: 50%;
+  float: left;
+  background-size: cover;
+}
+
+.m{
+  clear: both;
+}
+
+.social{
+  text-align: center;
+  padding-top: 40px;
+  color: #4e61c0;
+}
+
+.social p{
+  color: black;
+}
+
+.facebook{
+  padding:30px;
+}
+
+.white-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index : 2;
+  border : 0px solid white;
+  transition: border 0.5s;
+}
+
+.white-box:hover {
+  border : 30px solid white;
+}
+
+
+@media screen and (max-width : 992px) {
+
+  .servie-menu2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .servie-menu2 div {
+    width: 100%;
+  }
+
+  .Logo{
+    text-align: center;
+  }
+
+  .phoneImage{
+    width: 240px;
+    display: block;
+    float: none;
+    margin: auto;
+    padding-top: 37px;
+  }
+
+
+  .white-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index : 2;
+    border : 0px solid white;
+    transition: border 0.5s;
+  }
+  
+  .white-box:hover {
+    border : 30px solid white;
+  }
+
+  .main-apps{
+    text-align: center;
+  }
+
+} 
